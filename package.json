@@ -1,0 +1,69 @@
+{
+  "name": "seminarlive",
+  "version": "0.0.1",
+  "description": "",
+  "productName": "",
+  "author": "Etüd Bilişim <web@etud.com.tr>",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --ext .js,.vue ./",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "@amcharts/amcharts4": "^4.10.10",
+    "@amcharts/amcharts4-geodata": "^4.1.19",
+    "@quasar/extras": "^1.0.0",
+    "axios": "^0.18.1",
+    "core-js": "^3.6.5",
+    "countries-list": "^2.5.6",
+    "drawflow": "0.0.30",
+    "email-validator": "^2.0.4",
+    "firebase": "^8.3.2",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.32",
+    "quasar": "^1.0.0",
+    "socket.io-client": "^3.0.4",
+    "vue-add-to-calendar": "^1.0.7",
+    "vue-google-charts": "^0.3.3",
+    "vue-i18n": "^8.0.0",
+    "vue-ics": "^0.1.4",
+    "vue-json-excel": "^0.3.0",
+    "vue-socket.io": "^3.0.10",
+    "vue-socket.io-extended": "^4.0.5",
+    "vue-the-mask": "^0.11.1",
+    "vuedraggable": "^2.24.2",
+    "vuefire": "^2.2.5",
+    "jspanel4": "^4.11.3",
+    "vue-js-panel": "0.0.1"
+  },
+  "devDependencies": {
+    "@quasar/app": "^2.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-loader": "^3.0.3",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-vue": "^6.1.2",
+    "vue-prism": "^1.0.5"
+  },
+  "browserslist": [
+    "ie >= 11",
+    "last 10 Chrome versions",
+    "last 10 Firefox versions",
+    "last 4 Edge versions",
+    "last 7 Safari versions",
+    "last 8 Android versions",
+    "last 8 ChromeAndroid versions",
+    "last 8 FirefoxAndroid versions",
+    "last 10 iOS versions",
+    "last 5 Opera versions"
+  ],
+  "engines": {
+    "node": ">= 10.18.1",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}
